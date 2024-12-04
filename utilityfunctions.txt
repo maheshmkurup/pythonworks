@@ -1,0 +1,27 @@
+print("message") => print a message in console
+
+type(object) => return datatype of object
+
+input("message") => read value from console,return string value 
+
+round(object,precision) => 20.54568 => 20.54
+
+len()
+
+range(start,stop,step)
+
+min(num1,num2) => return smallest number
+
+max(num1,num2) => return largest number
+
+
+USER DEFINED FUNCTIONS
+
+syntax=> #def function name(p1,p2,p3)
+           
+           #function definition
+           
+           #return value
+
+enumerate(data) ==> return index and elements of a data
+    

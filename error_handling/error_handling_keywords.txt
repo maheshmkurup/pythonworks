@@ -1,0 +1,22 @@
+
+Error handling
+
+
+try
+except
+finally
+raise
+
+
+syntax
+
+try:
+
+    doubtful code
+
+except:
+
+     handling 
+
+
+assert 

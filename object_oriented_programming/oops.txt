@@ -1,0 +1,59 @@
+class==> blueprint or design or template to create objects
+
+objects==>real world entities or anything that can be made using a class
+
+class contains both attributes and methods
+
+self keyword points the created object (point current instance)
+
+constructor ==> initialize instance variable
+
+python constructor ==>  __init__
+
+constructor automatically invokes when object is created (need not to be called separately)
+
+A real world entity converting into a program is known as object oriented programming 
+
+__str__(self) ==> string representation of an object 
+
+super==> refer parent class
+
+polymorphism==> more than one form 
+
+method overloading => same method name and different number of arguments(we can use *args for the same purpose so python dont support method overloading) 
+
+method overriding  => 2 classes,child should be inherited,same signature(same method name),child class is not satisfied with parent class method ,it needs another method implementation
+   
+to check methods of a class dir(class_name) 
+
+Abstraction => Hiding implementation details,to implement we use abc.py module==> class ABC,@abstract method(decorator) 
+
+the class that has abstract method(method without definition) is called abstract class
+
+a class becomes abstract class only if it inherits ABC class
+
+a method becomes abstact method only if it is decorated using @abstractmethod decorater
+
+to make an attribute private=> __attribute
+
+   
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+

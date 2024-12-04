@@ -1,0 +1,12 @@
+1.)decorater is a normal function  ==>  def swap_decorator()
+
+2.)it contains a function inside a function  ==>  def swap_decorator(fn)
+
+3.)it contains another function inside swap_decorator(normal function) 
+
+    def swap_decorator(fn)
+
+       def wrapper(n1,n2) ==> it contains paramater of the functions to perform
+
+to add a functionality in the method without changing its definition
+

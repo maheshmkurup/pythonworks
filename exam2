@@ -1,0 +1,22 @@
+def longest_common_prefix(strs):
+    if not strs:
+        return ""
+
+    # Start with the first string as the prefix
+    prefix = strs[0]
+
+    # Compare the prefix with each string
+    for string in strs[1:]:
+        while string[:len(prefix)] != prefix:
+            # Shorten the prefix if it doesn't match
+            prefix = prefix[:-1]
+            if not prefix:
+                return ""
+    return prefix
+
+# Example usage
+strs1 = ["flower", "flow", "flight"]
+print(longest_common_prefix(strs1))  # Output: "fl"
+
+strs2 = ["dog", "racecar", "car"]
+print(longest_common_prefix(strs2))  # Output: ""
